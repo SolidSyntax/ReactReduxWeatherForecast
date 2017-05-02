@@ -12,7 +12,8 @@ export const FETCH_WEATHER = 'FETCH_WEATHER';
 export function fetchWeather(cityAndCountryName){
     const url = `${ROOT_URL}&q=${cityAndCountryName}`;
 
-    //Axios middleware detects promises and wait for them to resolve
+    //Axios returns a promise
+    //React-prommise middleware detects promises and wait for them to resolve
     //Afterwards it takes the resolved response and published it as the new payload
     const request = axios.get(url);
 
