@@ -1,4 +1,4 @@
-A simple React started based on the Udemy course of Stephen Grinder.
+A simple React started based on the Udemy course of Stephen Grider.
 
 Dependencies include:
 
